@@ -1,0 +1,325 @@
+
+<!-- HTML Document Structure -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Assignment Information and Important Dates</title>
+<style>
+    /* Global CSS Styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  .info-container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #d2c7fa;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+  }
+  .info-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .info-header h1, .info-header h2, .info-header h3 {
+    color: #333;
+    margin: 0;
+  }
+  table {
+    width: 40%;
+    margin: 15px auto;
+    border-collapse: collapse;
+    border: 2px solid #e2e3e9;
+    font-size: 18px;
+  }
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  th {
+    background-color: #acb6eb;
+    color: #fff;
+  }
+  tr:nth-child(even) {
+    background-color: #e2e6e1;
+  }
+  a {
+    color: rgb(14, 220, 235);
+    text-decoration: underline;
+  }
+  .attack-image {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+</style>
+
+<!-- Task 1: Use CSS to display the following -->
+
+</head>
+<body>
+
+<!-- Info container for assignment details -->
+  <div class="info-container">
+
+    <!-- Info Container -->
+
+    <div class="info-header">
+      <h1>8788443 Md Shah Iqbal</h1>
+      <h2>COMP804: Web Security</h2>
+      <h3>Assignment 1, due at the end of Week 5</h3>
+    </div>
+  </div>
+
+  <!-- Task 2: Use CSS to style a table -->
+  
+<table>
+  <thead>
+    <tr>
+      <th>Activity</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>First day to enroll for re-enrolling (continuing students)</td>
+      <td>21 Nov 2022</td>
+    </tr>
+    <tr>
+      <td>Orientation</td>
+      <td>18 Jul 2023</td>
+    </tr>
+    <tr>
+      <td>Lectures Commence (weeks 1-9)</td>
+      <td>24 Jul - 22 Sep 2023</td>
+    </tr>
+    <tr>
+      <td>Last day to enroll / add subjects yourself</td>
+      <td>04 Aug 2023</td>
+    </tr>
+    <tr>
+      <td>Last day to enroll / add subjects with Head of Students approval</td>
+      <td>11 Aug 2023</td>
+    </tr>
+    <tr>
+      <td>CENSUS DATE
+        <ul>
+          <li>Fees due</li>
+          <li>Last day to withdraw from subjects without paying for them</li>
+          <li>HECS / FEE HELP debt reporting date</li>
+          <li>Last day to change HECS / FEE HELP billing option</li>
+        </ul>
+        <a href="#">Learn more about Census date</a>
+      </td>
+      <td>3 Aug 2023</td>
+    </tr>
+    <tr>
+      <td>Student Services and Amenities Fees Due</td>
+      <td>01 Sep 2023</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- Task 3: HTML & CSS -->
+
+
+<h2 style="text-align: center;">Web Attacks Information</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Web Attacks</th>
+    </tr>
+  </thead>
+
+  <!-- Table rows for web attacks information -->
+  <tbody>
+    <tr>
+        <!-- Table rows for web attacks information -->
+      <td>
+        <!-- Image and name of the attack -->
+        <img class="attack-image" src="Cross-Site Scripting.png" alt="XSS"><br>
+
+        <!-- All Images https://www.google.com/search?newwindow=1&sca_esv=3c5e3101375fa6d2&sxsrf=ACQVn0_m6SoratSRrNMIvsuA8ZBvaoTY3A:1709122868816&q=SQL+Injection&uds=AMwkrPtWfHjylsiJeBiP0XLjR82rX-rqXaR7HSL_DgNERckvmPuP4Ug4vJ--GbiKrOFGU7LcOexPQxmtIFoySlJPnirkYE8UudgNfxCNzBUi1oVGR4I8uZswbHEB0GdM1xWilbH7MS6e&udm=2&sa=X&ved=2ahUKEwi6qt7rgs6EAxWVh1YBHV3NAhgQtKgLegQIChAB&biw=1920&bih=911&dpr=1-->
+
+        XSS (Cross-Site Scripting)
+      </td>
+      <td>
+        <p>Cross-Site Scripting (XSS) is a type of security vulnerability that allows attackers to inject malicious scripts into webpages viewed by other users. These scripts can hijack user sessions, deface websites, or redirect users to malicious sites.</p>
+        <p>XSS attacks can be stored, reflected, or DOM-based. They are commonly used to steal cookies, session tokens, or sensitive information.</p>
+        <p>To learn more about XSS, visit <a href="https://www.cyber.gov.au/acsc/view-all-content/threats/xss">OWASP</a>.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img class="attack-image" src="SQL Injection .png" alt="SQL Injection"><br> 
+
+        SQL Injection
+      </td>
+      <td>
+        <p>SQL Injection is a code injection technique that attackers can use to damage and manipulate databases. By injecting malicious SQL code into input fields, attackers can gain unauthorized access to sensitive data or even manipulate database contents.</p>
+        <p>Read more about SQL Injection <a href="https://www.cyber.gov.au/acsc/view-all-content/threats/sql-injection">here</a>.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img class="attack-image" src="DDoS.png" alt="DDoS"><br>
+        DDoS (Distributed Denial of Service)
+      </td>
+      <td>
+        <p>A Distributed Denial of Service (DDoS) attack floods a website or network with a large amount of traffic, overwhelming its resources and making it unavailable to legitimate users.</p>
+        <p>Attackers use botnets or compromised devices to generate traffic, causing service disruption and financial loss to organizations.</p>
+        <p>Learn more about DDoS attacks <a href="https://www.cyber.gov.au/acsc/view-all-content/threats/ddos-attacks">here</a>.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img class="attack-image" src="CSRF.png" alt="CSRF"><br>
+        CSRF (Cross-Site Request Forgery)
+      </td>
+      <td>
+        <p>Cross-Site Request Forgery (CSRF) is an attack that tricks the victim into executing unwanted actions on a web application in which they are authenticated.</p>
+        <p>Attackers exploit the trust relationship between a user and a website to perform unauthorized actions, such as transferring funds or changing account settings.</p>
+        <p>Learn more about CSRF <a href="https://www.cyber.gov.au/acsc/view-all-content/threats/csrf">here</a>.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img class="attack-image" src="Phising.png" alt="Phishing"><br>
+        Phishing
+      </td>
+      <td>
+        <p>Phishing is a type of social engineering attack where attackers impersonate legitimate entities to trick individuals into providing sensitive information, such as passwords, credit card numbers, or personal details.</p>
+        <p>Attackers often use emails, text messages, or fake websites to deceive victims into disclosing confidential information.</p>
+        <p>Learn more about Phishing <a href="https://www.cyber.gov.au/learn-basics/explore-basics/watch-out-threats/phishing-emails-and-texts">here</a>.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img class="attack-image" src="Malware.png" alt="Malware"><br>
+        Malware
+      </td>
+      <td>
+        <p>Malware, short for malicious software, refers to any software intentionally designed to cause damage to a computer, server, or network.</p>
+        <p>Common types of malware include viruses, worms, trojans, ransomware, and spyware. Malware can steal sensitive information, disrupt operations, or damage systems.</p>
+        <p>Learn more about Malware <a href="https://www.cyber.gov.au/acsc/view-all-content/threats/malware">here</a>.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img class="attack-image" src="MitM.png" alt="Man-in-the-Middle (MitM) Attack"><br>
+        Man-in-the-Middle (MitM) Attack
+      </td>
+      <td>
+        <p>A Man-in-the-Middle (MitM) attack occurs when an attacker intercepts and alters communications between two parties without their knowledge.</p>
+        <p>Attackers can eavesdrop on sensitive information, manipulate data, or inject malicious content into the communication stream.</p>
+        <p>Learn more about MitM Attacks <a href="https://www.imperva.com/learn/application-security/man-in-the-middle-mitm-attack/">here</a>.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img class="attack-image" src="Brute Force.png" alt="Brute Force Attack"><br>
+        Brute Force Attack
+      </td>
+      <td>
+        <p>A Brute Force Attack is a trial-and-error method used by attackers to guess passwords or encryption keys to gain unauthorized access to systems or accounts.</p>
+        <p>Attackers use automated tools to generate a large number of guesses until the correct one is found. Strong passwords and multi-factor authentication can help mitigate these attacks.</p>
+        <p>Learn more about Brute Force Attacks <a href="https://owasp.org/www-community/attacks/Brute_force_attack">here</a>.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img class="attack-image" src="Clickjacking.png" alt="Clickjacking"><br>
+        Clickjacking
+      </td>
+      <td>
+        <p>Clickjacking, also known as UI Redressing, is a technique used by attackers to trick users into clicking on unintended elements on a web page.</p>
+        <p>Attackers overlay transparent or opaque layers on legitimate web pages, making users unknowingly click on malicious buttons or links.</p>
+        <p>Learn more about Clickjacking <a href="https://owasp.org/www-community/attacks/Clickjacking">here</a>.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img class="attack-image" src="Session Hijacking .png" alt="Session Hijacking"><br>
+        Session Hijacking
+      </td>
+      <td>
+        <p>Session Hijacking is a type of attack where attackers take over a user's session after successfully obtaining the session ID or cookies.</p>
+        <p>Attackers can impersonate legitimate users, access sensitive information, or perform unauthorized actions on behalf of the victim.</p>
+        <p>Learn more about Session Hijacking <a href="https://owasp.org/www-community/attacks/Session_hijacking_attack">here</a>.</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- Task 4: Javascript with button -->
+
+<div style="text-align: center;">
+  <button id="catBtn" onclick="showCat()">Cat</button>
+  <button id="dogBtn" onclick="showDog()">Dog</button>
+  <button id="frogBtn" onclick="showFrog()">Frog</button>
+</div>
+
+<div style="text-align: center;">
+  <input type="text" id="userInput" readonly>
+</div>
+
+<div style="text-align: center;">
+  <p id="userMessage"></p>
+</div>
+
+<div style="text-align: center;">
+  <div id="animalImageContainer"></div>
+</div>
+
+<script>
+  function showCat() {
+    // Highlight Cat button
+    document.getElementById('catBtn').style.backgroundColor = '#FFD700';
+    // Reset other buttons' background color
+    document.getElementById('dogBtn').style.backgroundColor = '';
+    document.getElementById('frogBtn').style.backgroundColor = '';
+    // Set user input value
+    document.getElementById('userInput').value = "User clicks Cat";
+     // Set user message
+    document.getElementById('userMessage').innerText = "Cat is clicked";
+    // Display Cat image
+    document.getElementById('animalImageContainer').innerHTML = '<img class="attack-image" src="Cat.png" alt="Cat">';
+  }
+   // Function to display Dog image and message
+  function showDog() {
+    // Highlight Dog button
+    document.getElementById('dogBtn').style.backgroundColor = '#FF0000';
+    // Reset other buttons' background color
+    document.getElementById('catBtn').style.backgroundColor = '';
+    document.getElementById('frogBtn').style.backgroundColor = '';
+    // Set user input value
+    document.getElementById('userInput').value = "User clicks Dog";
+     // Set user message
+    document.getElementById('userMessage').innerText = "Dog is clicked";
+    // Display Dog image
+    document.getElementById('animalImageContainer').innerHTML = '<img class="attack-image" src="Dog.png" alt="Dog">';
+  }
+    // Function to display Frog image and message
+  function showFrog() {
+    // Highlight Frog button
+    document.getElementById('frogBtn').style.backgroundColor = '#00FF00';
+    // Reset other buttons' background color
+    document.getElementById('catBtn').style.backgroundColor = '';
+    document.getElementById('dogBtn').style.backgroundColor = '';
+    // Set user input value
+    document.getElementById('userInput').value = "User clicks Frog";
+     // Set user message
+    document.getElementById('userMessage').innerText = "Frog is clicked";
+    // Display Frog image
+    document.getElementById('animalImageContainer').innerHTML = '<img class="attack-image" src="Frog.png" alt="Frog">';
+  }
+</script>
+
+</body>
+</html>
